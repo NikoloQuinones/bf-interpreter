@@ -1,2 +1,2 @@
 # BF interpreter
-for Intro to Programming Languages class
+Built and modified a compiler for Intro to Programming Languages class. Base of project built by Kaiser Pister.
