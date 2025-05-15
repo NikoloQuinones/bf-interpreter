@@ -4,11 +4,11 @@ import fs from "fs";
 
 import { run } from "./interp.js";
 
-const hello = fs.readFileSync("hello.bf");
-const bench = fs.readFileSync("bench.bf");
-const hanoi = fs.readFileSync("hanoi.bf");
-const brot = fs.readFileSync("mandelbrot.bf");
-const myTest = fs.readFileSync("tester.bf");
+const hello = fs.readFileSync("bf/hello.bf");
+const bench = fs.readFileSync("bf/bench.bf");
+const hanoi = fs.readFileSync("bf/hanoi.bf");
+const brot = fs.readFileSync("bf/mandelbrot.bf");
+const myTest = fs.readFileSync("bf/tester.bf");
 
 // run(myTest);
 run(hello);
